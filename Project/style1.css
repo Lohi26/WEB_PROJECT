@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 15px;
+}
+body{
+    background: #f7f7ff;
+    font-family: "Montserrat",sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin: 3.3rem 0;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.annormon{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+.butt{
+    margin: 0 1rem;
+}
+.checkbox{
+    display: none;
+}
+.sub{
+    background: linear-gradient(
+        135deg,
+        rgba(163,168,240,1) 0%,
+        rgba(105,111,221,1) 100%
+    );
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 1.6rem;
+    width: 3.3rem;
+    border-radius: 1.6rem;
+    padding: 0.3rem;
+}
+.circle{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 1.4rem;
+    width: 1.4rem;
+}
+.checkbox:checked + .sub{
+    justify-content: flex-end;
+}
+.tabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tab{
+    background-color: #fff;
+    border-radius: 0.8rem;
+}
+.tabs .tab.tab2{
+    background: linear-gradient(
+        135deg,
+        rgba(163,168,240,1) 0%,
+        rgba(105,111,221,1) 100%
+    );
+    display: flex;
+    align-items: center;
+    transform: scale(1.1);
+}
+ul{
+    margin: 2.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem 0;
+}
+.tab{
+    box-shadow: -5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+.subm{
+    background-color: #fff;
+    margin-top: 1rem;
+    height: 2.6rem;
+    width: 10.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: linear-gradient(
+        135deg,
+        rgba(163,168,240,1) 0%,
+        rgba(105,111,221,1) 100%
+    );
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-weight: bold;
+}
+.subm1{
+    background: #fff;
+    color: rgba(163,168,240,1);
+}
+.head{
+    border-bottom: 2px solid hsl(240, 8%, 85%,0.283);
+}
+.subm:hover{
+    background-color: white;
+    color: black;
+}
+.header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.price{
+    font-weight: bolder;
+    color:hsl(240, 50%, 10%);
+    font-size: 25px;
+}
+.price1{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+}
